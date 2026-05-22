@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyxis"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["llama-cpp-python", "psutil", "prompt_toolkit"]
+
+[project.scripts]
+pyxis = "pyxis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pyxis*"]
