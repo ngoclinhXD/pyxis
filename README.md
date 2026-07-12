@@ -3,6 +3,8 @@
 Chat with local GGUF models (Gemma, Llama, etc.) entirely in your terminal — no internet required.
 You can run this vis USB.
 
+May or may not compile, need some fixes.
+
 > Named after Pyxis, the compass constellation.
 
 ## Setup
